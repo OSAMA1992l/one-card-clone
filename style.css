@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    
+}
+
+.nav-bar{
+    height: 60px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 3px solid rgba(249, 246, 246, 0.826);
+   position: static;
+  
+}
+
+
+
+.logo1{
+    height: 33px;
+    margin-left: 2%;
+    width: 60px;
+    /* margin-right: 2%; */
+    
+}
+
+.button{
+   margin-right: 1%; 
+}
+
+button{
+    height: 37px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(103, 103, 247, 0.929);
+    border: none;
+    border-radius: 5px;
+    /* margin-right: 2%; */
+}
+
+button:hover{
+    background-color: blue;
+}
+.nav-list{
+  margin-left: 28%;
+ 
+width: 600px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+   font-size: 20px;
+   list-style: none;
+   text-transform: capitalize;
+   display: none;
+}
+
+.svg{
+    margin-right: 2%;
+}
+.svg1{
+    height: 30px;
+display: flex;
+
+}
+
+/* media quary */
+@media screen and (min-width:980px){
+    ul{
+        display: block;
+        display: flex;
+    }
+    .svg1{
+        display: none;
+    }
+    .container1{
+        flex-wrap: nowrap;
+    }
+
+
+
+    .container3{
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+    .container4{
+        flex-wrap: nowrap;
+    }
+    .container5{
+        flex-wrap: nowrap;
+    }
+
+    .container6{
+       
+        flex-wrap: nowrap;
+    }
+    .container7{
+        flex-wrap: nowrap;
+    }
+    .container8{
+        flex-wrap: nowrap;
+    }
+}
+/* main */
+/* main{
+    margin-left: 3%;
+    margin-right: 3%;
+} */
+
+.container1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    gap: 20px;
+}
+
+.box{
+    height: 550px;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.say{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.one{
+    font-size: 60px;
+    color: rgba(73, 73, 249, 0.886);
+}
+.co{
+    font-size: 20px;
+    color: rgba(41, 41, 247, 0.941);
+    margin-top: 25px;
+}
+.bank{
+    height: 90px;
+}
+.india{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.apply{
+    margin-top: 30px;
+    border-radius: 3px;
+    width: 150px;
+    margin-left: 2%;
+    
+}
+
+.box2{
+   display: flex;
+   align-items: center;
+}
+.video1{
+    height: 500px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* section2 */
+.container2{
+  
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+
+.container2 h1{
+    color: white;
+
+}
+
+h1:first-child{
+font-size: 76px;
+background: -webkit-linear-gradient(#0a23ff, #9483f7a8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 50px;
+   
+}
+h1:nth-child(2){
+    font-size: 60px;
+    font-weight: 300;
+}
+h1:nth-child(3){
+    font-size: 60px;
+    font-weight: 300;
+}
+h1:last-child{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+/* section3 */
+.container3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* border: 2px solid black; */
+}
+
+.box3 video{
+    height: 490px;
+}
+/* box3 */
+.mobile{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+}
+
+.p1{
+    display: flex;
+    justify-content: flex-end;
+   padding-left: 120px;
+ 
+    
+}
+.powerful{
+    font-size: 70px;
+    text-align: right;
+    
+}
+.control-box{
+    display: flex;
+   justify-content: left;
+   text-align: right;
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+.box4{
+    padding: 8px;
+}
+/* section */
+/* container4 */
+.container4{
+    margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   background-color: rgba(124, 124, 123, 0.107);
+   flex-wrap: wrap;
+}
+
+.tarazu{
+    margin-top: 35%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: left;
+}
+#its{
+    font-size: 70px;
+    font-weight: 400;
+}
+.a{
+    font-size: 24px;
+}
+
+.rotate{
+    height: 450px;
+    margin-top: 25px;
+    background-color: white;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section */
+/* container 5 */
+.container5{
+    /* height: 600px; */
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box{
+/* border: 2px solid black; */
+}
+.phone-bank{
+    height: 470px;
+}
+.pan{
+    margin-top: 40%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+}
+.board{
+    text-align: right;
+
+}
+.board h2{
+    font-size: 49px;
+    font-weight: 500;
+}
+.board p{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+/* section */
+/* container6 */
+.container6{
+    margin-top: 10px;
+    display: flex;
+    background-color: rgba(225, 221, 221, 0.374);
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.svg2{
+    /* border: 2px solid black; */
+    margin-top: 30%;
+}
+
+.rewards h2{
+font-size: 41px;
+font-weight: 500;
+}
+
+.rewards p{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.trades{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+/* section */
+/* container7 */
+.container7{
+    /* border: 2px solid black; */
+    /* height: 550px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    /* border: 2px solid black; */
+    
+}
+.apple{
+    height: 460px;
+}
+.calculator{
+    /* border: 2px solid black; */
+    margin-top: 25%;
+    display: flex;
+    justify-content: end;
+}
+.emi h2{
+text-align: right;
+font-size: 55px;
+font-weight: 450;
+}
+.emi p{
+    text-align: right;
+    font-size: 24px;
+}
+
+/* container8 */
+.container8{
+    /* height: 550px; */
+    margin-top: 20px;
+    flex-wrap: wrap;
+display: flex;
+justify-content: center;
+background-color: rgba(225, 221, 221, 0.374);
+gap: 20px;
+}
+.box{
+    /* border: 2px solid black; */
+}
+
+.msg{
+    height: 50px;
+    width: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+.msg img{
+    height: 40px;
+}
+.family{
+    display: flex;
+    flex-direction: column;
+}
+.family h2{
+font-size: 50px;
+}
+
+.family p{
+    font-size: 23px;
+}
+.payment{
+    height: 500px;
+    width: 480px;
+   padding-top: 50px;
+}
+.family button{
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+    background-color: blue;
+    cursor: pointer;
+}
