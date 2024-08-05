@@ -71,43 +71,7 @@ display: flex;
 }
 
 /* media quary */
-@media screen and (min-width:980px){
-    ul{
-        display: block;
-        display: flex;
-    }
-    .svg1{
-        display: none;
-    }
-    .container1{
-        flex-wrap: nowrap;
-    }
 
-
-
-    .container3{
-        flex-wrap: nowrap;
-        align-items: center;
-        
-    }
-    .container4{
-        flex-wrap: nowrap;
-    }
-    .container5{
-        flex-wrap: nowrap;
-    }
-
-    .container6{
-       
-        flex-wrap: nowrap;
-    }
-    .container7{
-        flex-wrap: nowrap;
-    }
-    .container8{
-        flex-wrap: nowrap;
-    }
-}
 /* main */
 /* main{
     margin-left: 3%;
@@ -395,7 +359,7 @@ font-weight: 450;
 
 /* container8 */
 .container8{
-    /* height: 550px; */
+  
     margin-top: 20px;
     flex-wrap: wrap;
 display: flex;
@@ -441,4 +405,366 @@ font-size: 50px;
     width: 140px;
     background-color: blue;
     cursor: pointer;
+}
+
+.container9{
+    /* height: 600px; */
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+}
+.blog{
+    /* border: 2px solid black; */
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.blog span{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.blog span:last-child{
+    color: rgb(37, 37, 250);
+    margin-left: 10px;
+}
+/* second div */
+.latest{
+    /* border: 2px solid black; */
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* wxplore */
+
+.explore{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.item{
+    /* border: 2px solid black; */
+   height: 328px;
+    width: 450px; 
+}
+
+
+.child{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.child1{
+    height: 70%;
+}
+
+.child2{
+    margin-top: 10px;
+}
+.child4{
+    margin-top: 10px;
+}
+.child6{
+    margin-top: 10px;
+}
+.child3{
+    height: 70%;
+}
+.child5{
+    height: 70%;
+}
+
+.child1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+   border-radius: 8px;
+   
+}
+.child3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 8px;
+}
+.child5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 8px;
+   
+}
+.child2 p{
+    color: gray;
+    font-size: 21px;
+}
+.child4 p{
+    color: gray;
+    font-size: 21px;
+}
+.child6 p{
+    color: gray;
+    font-size: 21px;
+}
+
+.from{
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.from button{
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+
+@media screen and (min-width:980px){
+    ul{
+        display: block;
+        display: flex;
+    }
+    .svg1{
+        display: none;
+    }
+    .container1{
+        flex-wrap: nowrap;
+    }
+
+
+
+    .container3{
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+    .container4{
+        flex-wrap: nowrap;
+    }
+    .container5{
+        flex-wrap: nowrap;
+    }
+
+    .container6{
+       
+        flex-wrap: nowrap;
+    }
+    .container7{
+        flex-wrap: nowrap;
+    }
+    .container8{
+        flex-wrap: nowrap;
+    }
+
+    .container9{
+        flex-wrap: nowrap;
+    }
+
+    .container10{
+        flex-wrap: nowrap;
+    }
+    .container11{
+        flex-wrap: nowrap;
+    }
+    .Fcontainer1{
+        flex-wrap: nowrap;
+    }
+}
+
+/* container10 */
+
+.container10{
+    /* height: 500px; */
+    background-color: rgba(225, 221, 221, 0.374);
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.banking{
+   
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    padding: 10px;
+}
+
+.one-credit{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.one-credit p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-weight: 300;
+}
+
+.bank-icon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bank-icon img{
+    height: 100px;
+}
+
+/* container11 */
+.container11{
+    /* height: 600px; */
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.insvestor{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.insvestor span{
+    font-size: 70px;
+    font-weight: 450;
+    margin-top: 40px;
+}
+
+.baked{
+    border: 2px solid black;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.baked span{
+    font-size: 36px;
+    text-align: center;
+    color: gray;
+}
+
+.matrix{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.img{
+  
+    border: 2px solid black;
+   border-radius: 15px;
+}
+
+.img1:hover{
+  transition-property: all;
+ transform: scale(1.1);
+ transition-duration: 1s;
+ transition-timing-function: linear;
+ border-radius: 8px;
+}
+.img1~:hover{
+  transition-property: all;
+ transform: scale(1.1);
+ transition-duration: 1s;
+ transition-timing-function: linear;
+ border-radius: 8px;
+}
+
+
+
+.img1{
+    background-image: url(img1.svg);
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 380px;
+}
+.img2{
+    background-image: url(img2.svg);
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 380px;
+}
+.img3{
+    background-image: url(img3.svg);
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 380px;
+}
+/* footer */
+/* fcontainer1 */
+.Fcontainer1{
+   flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(41, 44, 50);
+   display: flex;
+   flex-direction: column;
+    
+}
+#one {
+    height: 40px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+   
+}
+#one img{
+    height: 40px;
+    margin-top: 20px;
+}
+.heart{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.we{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 55px;
+    color: rgb(47, 47, 252);
+    font-weight: 400;
+    
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+}
+
+.new span{
+    text-align:center;
+    padding: 10px;
+    
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    
+}
+.follow span{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.meadia{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
 }
